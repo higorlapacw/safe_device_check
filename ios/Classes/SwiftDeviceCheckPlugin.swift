@@ -14,7 +14,7 @@ public class SwiftDeviceCheckPlugin: NSObject, FlutterPlugin {
             result("iOS " + UIDevice.current.systemVersion)
             return
         case "isRooted":
-            result(DeviceCheck.isRooted())
+            result(DeviceCheck.isJailBroken())
             return
         case "isEmulator":
             result(DeviceCheck.isSimulator())

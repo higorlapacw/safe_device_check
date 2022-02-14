@@ -21,7 +21,7 @@ public class DeviceCheck {
     }
 
 
-    private func method1() -> Bool {
+    static func method1() -> Bool {
         let fileManager = FileManager.default
 
         if isSimulator() {
@@ -39,7 +39,7 @@ public class DeviceCheck {
         return false;
     }
 
-    private func method2() -> Bool {
+    static func method2() -> Bool {
         let fileManager = FileManager.default
 
         do {
